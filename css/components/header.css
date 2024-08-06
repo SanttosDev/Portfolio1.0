@@ -19,7 +19,7 @@ header .header__left p {
 
 header .header__right .header__image {
   position: relative;
-  line-height: 0;
+  line-height: 2.5;
 }
 
 header .header__right .header__image::after {
@@ -30,7 +30,7 @@ header .header__right .header__image::after {
   border: 1px solid var(--tertiary-color);
   position: absolute;
   top: -1.5rem;
-  right: -1.5rem;
+  right: 0rem;
   border-radius: 0.5rem;
   z-index: -1;
 }
